@@ -58,9 +58,9 @@ function ParticlesLogo(props) {
                 src={"/assets/img/logo.png"}
                 width={Number(innerWidth)}
                 height={Number(innerHeight)}
-                scale={0.7}
+                scale={0.4}
                 entropy={10}
-                maxParticles={11000}
+                maxParticles={5000}
                 particleOptions={particleOptions}
                 mouseMoveForce={motionForce}
                 touchMoveForce={motionForce}
