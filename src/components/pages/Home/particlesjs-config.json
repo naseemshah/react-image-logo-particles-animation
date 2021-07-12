@@ -47,7 +47,7 @@
     },
     "line_linked": {
       "enable": true,
-      "distance": 150,
+      "distance": 130,
       "color": "#ffffff",
       "opacity": 0.4,
       "width": 1
@@ -68,7 +68,7 @@
     }
   },
   "interactivity": {
-    "detect_on": "canvas",
+    "detect_on": "window",
     "events": {
       "onhover": {
         "enable": true,
@@ -102,7 +102,7 @@
         "particles_nb": 4
       },
       "remove": {
-        "particles_nb": 2
+        "particles_nb": 5
       }
     }
   },

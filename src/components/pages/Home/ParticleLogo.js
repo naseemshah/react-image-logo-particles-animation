@@ -60,7 +60,7 @@ function ParticlesLogo(props) {
                 height={Number(innerHeight)}
                 scale={0.45}
                 entropy={10}
-                maxParticles={5000}
+                maxParticles={3000}
                 particleOptions={particleOptions}
                 mouseMoveForce={motionForce}
                 touchMoveForce={motionForce}
