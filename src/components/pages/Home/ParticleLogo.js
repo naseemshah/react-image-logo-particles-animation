@@ -36,7 +36,7 @@ const particleOptions = {
     const pixel = image.get(x, y);
     const magnitude = (pixel.r + pixel.g + pixel.b) / 3;
     // Lighter colors will have smaller radius
-    return 3 - (magnitude / 255) * 1.5;
+    return (3 - (magnitude / 255) * 1.5)*0.3;
   },
   mass: () => 80,
   friction: () => 0.15,
@@ -58,9 +58,9 @@ function ParticlesLogo(props) {
                 src={"/assets/img/logo.png"}
                 width={Number(innerWidth)}
                 height={Number(innerHeight)}
-                scale={0.45}
+                scale={0.7}
                 entropy={10}
-                maxParticles={3000}
+                maxParticles={11000}
                 particleOptions={particleOptions}
                 mouseMoveForce={motionForce}
                 touchMoveForce={motionForce}

@@ -2,7 +2,10 @@
 
 A mouse interactive particle animation on a logo image made in React.js.
 
-## Available Scripts
+## Live demo
+Link: https://react-image-logo-particles-animation.netlify.app/
+
+## Run in localmachine:
 
 Clone the repo and `yarn install`.
 
